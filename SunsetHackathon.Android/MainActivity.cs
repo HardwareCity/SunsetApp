@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.FirebasePushNotification;
+using Android.Content;
 
 namespace SunsetHackathon.Droid
 {
@@ -20,7 +22,16 @@ namespace SunsetHackathon.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
             LoadApplication(new App());
+
+            FirebasePushNotificationManager.ProcessIntent(this, Intent);
+        }
+
+        protected override void OnNewIntent(Intent intent)
+        {
+            base.OnNewIntent(intent);
+            FirebasePushNotificationManager.ProcessIntent(this, intent);
         }
     }
 }

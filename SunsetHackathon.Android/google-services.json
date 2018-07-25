@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "89986307605",
+    "firebase_url": "https://hardwarecity-f9216.firebaseio.com",
+    "project_id": "hardwarecity-f9216",
+    "storage_bucket": "hardwarecity-f9216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89986307605:android:640f06c403b451e3",
+        "android_client_info": {
+          "package_name": "com.hardwarecity.Sunset_Hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89986307605-pe8a0g73sfnhp87so1vjepla7sugu8ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyKSKfjEbEG3WJEHg50go__tGwacC-R2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
