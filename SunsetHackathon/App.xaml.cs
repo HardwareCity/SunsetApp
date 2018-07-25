@@ -11,10 +11,10 @@ namespace SunsetHackathon
         {
             var tabs = new TabbedPage();
 
-            tabs.Children.Add(new WebPage("http://sunsethackathon.com/") { Title = "Dia 1" });
-            tabs.Children.Add(new WebPage("https://sunsethackathon.com/v2/") { Title = "Dia 2" });
-            tabs.Children.Add(new WebPage("https://www.facebook.com/events/268455490389190/") { Title = "Dia 3" });
-            tabs.Children.Add(new WebPage("http://xamarin.com") { Title = "Talk with us" });
+            tabs.Children.Add(new WebPage(AppResources.url_day_one) { Title = AppResources.day_one });
+            tabs.Children.Add(new WebPage(AppResources.url_day_two) { Title = AppResources.day_two });
+            tabs.Children.Add(new WebPage(AppResources.url_day_three) { Title = AppResources.day_three });
+            tabs.Children.Add(new WebPage(AppResources.url_talk_with_us) { Title = AppResources.talk_with_us });
 
             MainPage = tabs;
         }
