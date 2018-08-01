@@ -71,6 +71,12 @@ namespace SunsetHackathon {
             }
         }
         
+        public static string video_stream {
+            get {
+                return ResourceManager.GetString("video_stream", resourceCulture);
+            }
+        }
+        
         public static string url_day_one {
             get {
                 return ResourceManager.GetString("url_day_one", resourceCulture);
@@ -92,6 +98,12 @@ namespace SunsetHackathon {
         public static string url_talk_with_us {
             get {
                 return ResourceManager.GetString("url_talk_with_us", resourceCulture);
+            }
+        }
+        
+        public static string url_video_stream {
+            get {
+                return ResourceManager.GetString("url_video_stream", resourceCulture);
             }
         }
     }

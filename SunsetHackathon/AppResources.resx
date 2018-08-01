@@ -25,6 +25,9 @@
     <data name="talk_with_us" xml:space="preserve">
         <value>Fala connosco</value>
     </data>
+    <data name="video_stream" xml:space="preserve">
+        <value>Video stream</value>
+    </data>
 
     <data name="url_day_one" xml:space="preserve">
         <value>http://sunsethackathon.com/</value>
@@ -37,6 +40,9 @@
     </data>
     <data name="url_talk_with_us" xml:space="preserve">
         <value>http://xamarin.com</value>
+    </data>
+    <data name="url_video_stream" xml:space="preserve">
+        <value>http://www.montemagno.com/sample.mp3</value>
     </data>
     
 </root>
